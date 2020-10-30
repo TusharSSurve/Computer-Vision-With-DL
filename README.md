@@ -7,6 +7,7 @@ Tensorflow model to classify if a given image is of male or female using CNN to 
 
 ## 2. Face Mask Detection
 
-Tensorflow model to classify if a given image face has face mask or not using CNN to achieve 97% accuracy on a training set & 96% on a testing set. Finally, Used opencv haar cascade to detect a face in real-time & predict the output. To train & validate a model I have used a dataset from internet. It consist of 2682 training examples & 1151 validation examples. Special thanks to **Prajna Bhandary** for the dataset. Link to download dataset:- https://github.com/prajnasb/observations/tree/master/experiements/data
-@prajnasb
+Tensorflow model to classify if a given image face has face mask or not using CNN to achieve 97% accuracy on a training set & 96% on a testing set. Finally, Used opencv haar cascade to detect a face in real-time & predict the output. To train & validate a model I have used a dataset from internet. It consist of 2682 training examples & 1151 validation examples. Special thanks to **Prajna Bhandary** for providing the dataset. Link to download dataset:- https://github.com/prajnasb/observations/tree/master/experiements/data 
+
+First, convert the dataset into a training & validation set in a 70-30% format. It can be easily done through train_test_split() from sklearn.model_selection. 
  
